@@ -1,7 +1,7 @@
 import React, { FC } from "react";
-import "./AppHeader.css";
+import "./Header.css";
 
-const AppHeader: FC = () => {
+const Header: FC = () => {
   return (
     <>
       <header className="app-header">
@@ -11,4 +11,4 @@ const AppHeader: FC = () => {
   );
 };
 
-export default AppHeader;
+export default Header;

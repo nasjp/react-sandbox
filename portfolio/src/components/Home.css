@@ -1,0 +1,12 @@
+.container {
+  margin: 5%;
+}
+
+.header {
+  font-size: calc(30px + 2vmin);
+  margin-bottom: 2%;
+}
+
+.text {
+  font-size: calc(2vmin);
+}

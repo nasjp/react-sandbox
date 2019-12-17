@@ -1,13 +1,14 @@
 import React, { FC } from "react";
 import { Redirect, Route, Switch } from "react-router";
-import AppHeader from "./AppHeader";
+import Header from "./components/Header";
+import Home from "./components/Home";
 import "./App.css";
 
 const App: FC<{}> = () => (
   <>
-    <AppHeader />
+    <Header />
     <Switch>
-      <Route path="/" />
+      <Route path="/" component={Home} />
       <Redirect to="/" />;
     </Switch>
   </>
