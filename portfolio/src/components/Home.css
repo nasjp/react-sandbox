@@ -1,10 +1,10 @@
 .container {
-  margin: 5%;
+  margin: calc(10px + 2vmin);
 }
 
 .header {
   font-size: calc(30px + 2vmin);
-  margin-bottom: 2%;
+  margin-bottom: calc(2vmin);
 }
 
 .text {
