@@ -1,13 +1,16 @@
-import React from "react";
+import React, { FC } from "react";
+import { Redirect, Route, Switch } from "react-router";
 import AppHeader from "./AppHeader";
 import "./App.css";
 
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      <AppHeader />
-    </div>
-  );
-};
+const App: FC<{}> = () => (
+  <div className="container">
+    <AppHeader />
+    <Switch>
+      <Route path="/" />
+      <Redirect to="/" />;
+    </Switch>
+  </div>
+);
 
 export default App;
