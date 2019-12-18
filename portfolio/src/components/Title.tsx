@@ -1,7 +1,7 @@
 import React, { FC } from "react";
-import "./Home.css";
+import "./Title.css";
 
-const Home: FC<{}> = () => (
+const Title: FC<{}> = () => (
   <div className="container">
     <header className="header">nas</header>
     <p className="text">Software Engineer</p>
@@ -9,4 +9,4 @@ const Home: FC<{}> = () => (
   </div>
 );
 
-export default Home;
+export default Title;
