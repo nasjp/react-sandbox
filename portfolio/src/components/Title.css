@@ -1,8 +1,5 @@
-.container {
-  margin: calc(10px + 2vmin);
-}
-
 .header {
+  text-align: start;
   font-size: calc(30px + 2vmin);
   margin-bottom: calc(10px + 2vmin);
 }
